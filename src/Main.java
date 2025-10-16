@@ -13,11 +13,11 @@ public class Main {
         double taxa;
 
         if (distancia <= 5){
-            taxa = 5.0;
-        } else if (distancia <= 10) {
             taxa = 8.0;
+        } else if (distancia <= 10) {
+            taxa = 12.0;
         }else {
-            taxa = 10.0;
+            taxa = 15.0;
         }
 
         if (chuva.equals("s")){
