@@ -15,9 +15,9 @@ public class Main {
         if (distancia <= 5){
             taxa = 9.0;
         } else if (distancia <= 10) {
-            taxa = 11.0;
+            taxa = 8.0;
         }else {
-            taxa = 15.0;
+            taxa = 1.0;
         }
 
         if (chuva.equals("s")){
