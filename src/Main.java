@@ -13,9 +13,9 @@ public class Main {
         double taxa;
 
         if (distancia <= 5){
-            taxa = 8.0;
+            taxa = 9.0;
         } else if (distancia <= 10) {
-            taxa = 12.0;
+            taxa = 11.0;
         }else {
             taxa = 15.0;
         }
